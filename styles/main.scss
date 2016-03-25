@@ -1,0 +1,48 @@
+body{
+	background-color: #edeeef;
+	font-family: 'proxima-nova', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	
+}
+
+nav{
+	background-color: #426a99;
+	//height: 5em;
+	width: 100%;
+	font-size:3em;
+	padding: .5em;
+}
+section{
+	background-color: #e0e1e2;
+	margin: auto 10%;
+	height: auto;
+	
+
+}
+.item{
+	box-shadow: 0px 0px 10px gray;
+	margin: auto 10% 2em 10%;
+	img{
+		width: 100%;
+		box-sizing: inside;
+	}
+	.description{
+		color:#666666;
+		
+		padding: 1em;
+		background-color: #fff;
+		font-size: 1em;
+
+	}
+
+}
+.empty{
+	height:.5em;
+	background-color: transparent;
+}
+@media (max-width:425px){
+	section{
+		
+		margin: 0;
+
+	}
+}
